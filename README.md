@@ -7,3 +7,14 @@ Good work here - your Purpose, Audience, Goal and Persona are thoughtful, detail
 Your project and files are all set up and up to spec. I would suggest cleaning up your code a bit. There seems to be a few nesting issues with your heading tags (h1, h2, h3). They are all children of the body tag and siblings with the p tags. Feel free to ask if you need more clarification.
 
 Your Milestone 1 passes at Tier III. You are now clear to begin work on Milestone 2α.
+
+
+## Milestone 2a Feedback
+
+- Your content strategy is clear.
+- Good job on your wire frames.
+- The wire frame layout is clean and simple.
+- There are no HTML errors.
+- Keep up the good work.
+
+Milestone 2a Grade Tier 4
