@@ -26,7 +26,7 @@
 		<title>Erica Tollefson's Portfolio</title>
 	</head>
 
-	<body style="background-color: #151515;">
+	<body>
 			<nav class="navbar navbar-collapse-xs navbar-dark float-right mr-5 mt-5">
 				<div class="container-fluid d-inline text-right">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -43,5 +43,37 @@
 					</div>
 				</div>
 			</nav>
+		<section class="bg-dark" id="header">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-3">
+						<img class="img-fluid d-block mx-auto align-middle" src="placeholder.jpg" alt="a blurry image" width="385" height="349">
+					</div>
+					<div class="col-sm-9">
+						<p class="header-text">My Header Text</p>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<section class="bg-danger" id="about">
+			<div class="container-fluid">
+				<div class="media">
+					<img class="align-self-center mr-3" src="placeholder.jpg" alt="a blurry image" width="385" height="349">
+					<div class="media-body">
+						<h5 class="my-5">Center-aligned media</h5>
+						<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+						<p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div id="portfolio">
+
+		</div>
+		<div id="contact">
+
+		</div>
+
 	</body>
 </html>
