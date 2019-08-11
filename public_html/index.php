@@ -12,6 +12,9 @@
 		<!-- Additional CSS -->
 		<link rel="stylesheet" href="styles.css" type="text/css"/>
 
+		<!-- My JavaScript -->
+		<script src="./script.js"></script>
+
 		<!-- jQuery, then Popper.js, then Bootstrap JS-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 				  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -22,6 +25,9 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 				  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 				  crossorigin="anonymous"></script>
+
+		<!-- My JavaScript -->
+		<script src="script.js"></script>
 
 		<title>Erica Tollefson's Portfolio</title>
 	</head>
@@ -36,10 +42,10 @@
 					</button>
 					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 						<div class="navbar-nav ml-auto">
-							<a class="nav-item nav-link" href="#">Home</a>
-							<a class="nav-item nav-link" href="#">About</a>
-							<a class="nav-item nav-link" href="#">Portfolio</a>
-							<a class="nav-item nav-link" href="#">Contact</a>
+							<a class="nav-item nav-link" href="#header">Home</a>
+							<a class="nav-item nav-link" href="#about">About</a>
+							<a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+							<a class="nav-item nav-link" href="#contact">Contact</a>
 						</div>
 					</div>
 				</div>
@@ -98,16 +104,15 @@
 				<div class="container d-inline ml-0 mw-100">
 					<a class="navbar-brand float-md-right mr-md-0 my-md-0" href="https://github.com/EricaTollefson" target="_blank"><img src="GitHub-Mark-64px.png" alt="link to my github" width="35px" height="auto"></a>
 					<a class="navbar-brand float-md-right mr-md-1 my-md-0" href="https://www.linkedin.com/in/erica-tollefson-nm/" target="_blank"><img src="LI-In-Bug.png" alt="link to my linkedin page" width="35px" height="auto"></a>
-					<button class="navbar-toggler float-left mt-1 mr-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-							  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<button class="navbar-toggler float-left mt-1 mr-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="collapse navbar-collapse bottom" id="navbarNavAltMarkup">
 						<div class="navbar-nav ml-auto mx-md-0 mt-md-1">
-							<a class="nav-item nav-link" href="#">Home</a>
-							<a class="nav-item nav-link" href="#">About</a>
-							<a class="nav-item nav-link" href="#">Portfolio</a>
-							<a class="nav-item nav-link" href="#">Contact</a>
+							<a class="nav-item nav-link text-light bottom-nav" href="#header">Home</a>
+							<a class="nav-item nav-link text-light bottom-nav" href="#about">About</a>
+							<a class="nav-item nav-link text-light bottom-nav" href="#portfolio">Portfolio</a>
+							<a class="nav-item nav-link text-light bottom-nav" href="#contact">Contact</a>
 						</div>
 					</div>
 				</div>

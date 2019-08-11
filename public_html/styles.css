@@ -25,3 +25,39 @@
 {
 	bottom: 0;
 }
+
+@media (max-width: 768px) {
+	.navbar-collapse.bottom {
+		position: absolute;
+		bottom: 60px;
+		left: 0;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		width: 100%;
+	}
+	.navbar-collapse.collapsing.bottom {
+		height: auto;
+		-webkit-transition: bottom 0.1s ease-out;
+		-o-transition: bottom 0.1s ease-out;
+		-moz-transition: bottom 0.1s ease-out;
+		transition: bottom 0.1s ease-out;
+		bottom: -50%;
+	}
+	.navbar-collapse.show.bottom {
+		bottom: 10;
+		-webkit-transition: bottom 0.1s ease-out;
+		-o-transition: bottom 0.1s ease-out;
+		-moz-transition: bottom 0.1s ease-out;
+		transition: bottom 0.1s ease-out;
+	}
+}
+
+@media (min-width: 768px) {
+	.nav-item.bottom-nav {
+		color: #303030 !important;
+	}
+	a.nav-link.bottom-nav:hover {
+		color: #919191 !important;
+	}
+}
