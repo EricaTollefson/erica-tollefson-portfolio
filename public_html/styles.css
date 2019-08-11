@@ -17,3 +17,11 @@
 #contact {
 	border: 2px dotted deeppink;
 }
+
+#footer {
+	border: 1.5px dotted orange;
+}
+
+{
+	bottom: 0;
+}
