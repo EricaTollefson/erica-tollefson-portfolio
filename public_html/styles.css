@@ -7,5 +7,13 @@
 }
 
 #about {
+ border: 2px dotted red;
+}
 
+#portfolio {
+	border: 1.5px solid yellow;
+}
+
+#contact {
+	border: 2px dotted deeppink;
 }

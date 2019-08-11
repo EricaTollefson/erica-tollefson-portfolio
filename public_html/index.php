@@ -26,7 +26,7 @@
 		<title>Erica Tollefson's Portfolio</title>
 	</head>
 
-	<body class="bg-dark">
+	<body style="background-color: #191919;">
 		<div class="clearfix">
 			<nav class="navbar navbar-collapse-xs navbar-dark float-right mr-3 mt-3">
 				<div class="container d-inline text-right">
@@ -55,35 +55,40 @@
 			</div>
 
 			<div class="container-fluid" id="about">
-				<div class="row min-vh-100">
-					<div class="col-sm-9">
+				<div class="row min-vh-100 clearfix">
+					<div class="col-sm-5 col-4">
 
 					</div>
-					<div class="col-sm-3">
-						<h3>About Me</h3>
-						<p>About Me</p>
+					<div class="col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
+						<h3 class="text-right text-light pb-3">About Me</h3>
+						<p class="text-right text-light ml-sm-3">Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit​​, morbo vel maleficia? De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. Qui offenderit rapto, terribilem incessu. The voodoo sacerdos suscitat mortuos comedere carnem. Search for solum oculi eorum defunctis cerebro. Nescio an Undead zombies.</p>
 					</div>
 				</div>
 			</div>
 
 			<div class="container-fluid" id="portfolio">
-				<div class="row min-vh-100">
-					<div class="col-3">
+				<div class="row min-vh-100 clearfix">
+					<div class="col-sm-4 col-4 my-auto d-block float-left pl-4 py-4" style="width:auto;">
+						<h3 class="text-left text-light pb-3">Portfolio</h3>
+						<p class="text-left text-light mr-sm-3">Tremor est vivos magna. Expansis ulnis video missing carnem armis caeruleum in locis. A morbo amarus in auras. Nihil horum sagittis tincidunt, gelida portenta. The unleashed virus est, et iam mortui ambulabunt super terram. Souless mortuum oculos attonitos back zombies. An hoc incipere Clairvius Narcisse, an ante? Is bello mundi z?</p>
 					</div>
-					<div class="col-9">
-						<h3>Header: Portfolio</h3>
-						<p>my portfolio</p>
+					<div class="col-sm-5 col-3 my-auto">
+						<img src="placeholder.jpg" alt="a blurry image" width="240" height="auto">
 					</div>
 				</div>
 			</div>
 
 		<div class="container-fluid" id="contact">
-			<div class="row min-vh-100">
-				<div class="col-9">
+			<div class="row min-vh-100 clearfix">
+				<div class="col-sm-5 col-4">
+
 				</div>
-				<div class="col-3">
-					<h3>Header: Contact</h3>
-					<p>Contact Me</p>
+				<div class="col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
+					<h3 class="text-right text-light pb-3">Contact Me</h3>
+					<p class="text-right text-light ml-sm-3">Contact Form</p>
+				<div class="col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
+					<img class="ml-sm-3" src="placeholder.jpg" alt="a blurry image" width="240" height="auto">
+				</div>
 				</div>
 			</div>
 		</div>
