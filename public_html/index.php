@@ -103,7 +103,7 @@
 			<nav class="navbar navbar-collapse-xs navbar-expand-md navbar-light" style="background-color: #ebebeb;">
 				<div class="container d-inline ml-0 mw-100">
 					<a class="navbar-brand float-md-right mr-md-0 my-md-0" href="https://github.com/EricaTollefson" target="_blank"><img src="GitHub-Mark-64px.png" alt="link to my github" width="35px" height="auto"></a>
-					<a class="navbar-brand float-md-right mr-md-1 my-md-0" href="https://www.linkedin.com/in/erica-tollefson-nm/" target="_blank"><img src="LI-In-Bug.png" alt="link to my linkedin page" width="35px" height="auto"></a>
+					<a class="navbar-brand float-md-right mr-md-0 my-md-0" href="https://www.linkedin.com/in/erica-tollefson-nm/" target="_blank"><img src="LI-In-Bug.png" alt="link to my linkedin page" width="35px" height="auto"></a>
 					<button class="navbar-toggler float-left mt-1 mr-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
