@@ -1,13 +1,10 @@
-h3, h5 {
-	font-family: 'Quicksand Light', sans-serif;;
-}
-
-p {
-	font-family: 'Noto Sans JP Light', sans-serif;
+h3, h5, p {
+	font-weight: lighter;
 }
 
 
 #header {
+
 
 }
 
@@ -60,6 +57,11 @@ p {
 		-moz-transition: bottom 0.1s ease-out;
 		transition: bottom 0.1s ease-out;
 	}
+
+	#header {
+		margin-bottom: -60px !important;
+	}
+
 }
 
 @media (min-width: 768px) {
