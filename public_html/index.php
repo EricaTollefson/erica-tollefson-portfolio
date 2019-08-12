@@ -52,15 +52,15 @@
 			</nav>
 		</div>
 
-		<div class="container-fluid" id="header">
+		<div class="container-fluid header">
 			<!--parent must be full height-->
 			<div class="row min-vh-100 w-100">
-					<div class="p-0 my-auto mx-auto mr-lg-5 mr-xl-4 col-md-1 d-block" style="width:auto;"><img src="images/placeholder.jpg" alt="a blurry image" width="255" height="auto"></div>
+					<div class="p-0 my-auto mx-auto mr-lg-5 mr-xl-4 col-md-1 d-block" style="width:auto;"><img class="placeholder-img" src="images/placeholder.jpg" alt="a blurry image"></div>
 				<div class="p-0 mt-0 mb-5 my-md-auto mx-auto ml-lg-5 ml-xl-4 col-md-5 d-block"><h3 class="text-center text-light" >Erica Tollefson</h3><h5 class="text-center text-light">Web Developer</h5></div>
 				</div>
 			</div>
 
-			<div class="container-fluid" id="about">
+			<div class="container-fluid about" >
 				<div class="row min-vh-100 clearfix">
 					<div class="col-sm-5 col-4">
 
@@ -72,19 +72,19 @@
 				</div>
 			</div>
 
-			<div class="container-fluid" id="portfolio">
+			<div class="container-fluid portfolio" >
 				<div class="row min-vh-100 clearfix">
 					<div class="col-sm-4 col-4 my-auto d-block float-left pl-4 py-4" style="width:auto;">
 						<h3 class="text-left text-light pb-3">Portfolio</h3>
 						<p class="text-left text-light mr-sm-3">Tremor est vivos magna. Expansis ulnis video missing carnem armis caeruleum in locis. A morbo amarus in auras. Nihil horum sagittis tincidunt, gelida portenta. The unleashed virus est, et iam mortui ambulabunt super terram. Souless mortuum oculos attonitos back zombies. An hoc incipere Clairvius Narcisse, an ante? Is bello mundi z?</p>
 					</div>
 					<div class="col-sm-5 col-3 my-auto">
-						<img src="images/placeholder.jpg" alt="a blurry image" width="240" height="auto">
+						<img class="placeholder-img" src="images/placeholder.jpg" alt="a blurry image">
 					</div>
 				</div>
 			</div>
 
-		<div class="container-fluid" id="contact">
+		<div class="container-fluid contact" >
 			<div class="row min-vh-100 clearfix">
 				<div class="col-sm-5 col-4">
 
@@ -93,7 +93,7 @@
 					<h3 class="text-right text-light pb-3">Contact Me</h3>
 					<p class="text-right text-light ml-sm-3">Contact Form</p>
 				<div class="col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
-					<img class="ml-sm-3" src="images/placeholder.jpg" alt="a blurry image" width="240" height="auto">
+					<img class="ml-sm-3 placeholder-img" src="images/placeholder.jpg" alt="a blurry image">
 				</div>
 				</div>
 			</div>
@@ -102,8 +102,8 @@
 		<div class="clearfix">
 			<nav class="navbar navbar-collapse-xs navbar-expand-md navbar-light" style="background-color: #ebebeb;">
 				<div class="container d-inline ml-0 mw-100">
-					<a class="navbar-brand float-md-right mr-md-0 my-md-0" href="https://github.com/EricaTollefson" target="_blank"><img src="images/GitHub-Mark-64px.png" alt="link to my github" width="35px" height="auto"></a>
-					<a class="navbar-brand float-md-right mr-md-0 my-md-0" href="https://www.linkedin.com/in/erica-tollefson-nm/" target="_blank"><img src="images/LI-In-Bug.png" alt="link to my linkedin page" width="35px" height="auto"></a>
+					<a class="navbar-brand float-md-right mr-md-0 my-md-0" href="https://github.com/EricaTollefson" target="_blank"><img class="icon" src="images/GitHub-Mark-64px.png" alt="link to my github"></a>
+					<a class="navbar-brand float-md-right mr-md-3 my-md-0" href="https://www.linkedin.com/in/erica-tollefson-nm/" target="_blank"><img class="icon" src="images/linkedin-in-brands.svg" alt="link to my linkedin page"></a>
 					<button class="navbar-toggler float-left mt-1 mr-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
