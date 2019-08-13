@@ -1,6 +1,29 @@
 h3, h5, p {
 	font-weight: lighter;
+
 }
+
+p {
+
+
+}
+
+.animated {
+	animation-duration: 2s;
+	animation-delay: 1s;
+}
+
+.section {
+	opacity:0;
+	transform: translate(0, 30px);
+	transition: ease-out 2.5s 1s;
+}
+
+.section.visible {
+	opacity:1;
+	transform: translate(0, 0);
+}
+
 
 .placeholder-img {
 	width: 255px;

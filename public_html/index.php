@@ -12,9 +12,6 @@
 		<!-- Additional CSS -->
 		<link rel="stylesheet" href="styles.css" type="text/css"/>
 
-		<!-- My JavaScript -->
-		<script src="./script.js"></script>
-
 		<!-- jQuery, then Popper.js, then Bootstrap JS-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 				  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -25,6 +22,15 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 				  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 				  crossorigin="anonymous"></script>
+
+		<!-- jQuery -->
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.js"
+			integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			crossorigin="anonymous"></script>
+
+		<!-- animate.css stylesheet -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
 		<!-- My JavaScript -->
 		<script src="script.js"></script>
@@ -52,7 +58,7 @@
 			</nav>
 		</div>
 
-		<div class="container-fluid header">
+		<div class="container-fluid header animated fadeIn">
 			<!--parent must be full height-->
 			<div class="row min-vh-100 w-100">
 					<div class="p-0 my-auto mx-auto mr-lg-5 mr-xl-4 col-md-1 d-block" style="width:auto;"><img class="placeholder-img" src="images/placeholder.jpg" alt="a blurry image"></div>
@@ -60,7 +66,7 @@
 				</div>
 			</div>
 
-			<div class="container-fluid about" >
+			<div class="container-fluid about section" >
 				<div class="row min-vh-100 clearfix">
 					<div class="col-sm-5 col-4">
 
@@ -72,7 +78,7 @@
 				</div>
 			</div>
 
-			<div class="container-fluid portfolio" >
+			<div class="container-fluid portfolio section">
 				<div class="row min-vh-100 clearfix">
 					<div class="col-sm-4 col-4 my-auto d-block float-left pl-4 py-4" style="width:auto;">
 						<h3 class="text-left text-light pb-3">Portfolio</h3>
@@ -84,7 +90,7 @@
 				</div>
 			</div>
 
-		<div class="container-fluid contact" >
+		<div class="container-fluid contact section" >
 			<div class="row min-vh-100 clearfix">
 				<div class="col-sm-5 col-4">
 
@@ -99,7 +105,7 @@
 			</div>
 		</div>
 
-		<div class="clearfix">
+		<div class="clearfix section">
 			<nav class="navbar navbar-collapse-xs navbar-expand-md navbar-light" style="background-color: #ebebeb;">
 				<div class="container d-inline ml-0 mw-100">
 					<a class="navbar-brand float-md-right mr-md-0 my-md-0" href="https://github.com/EricaTollefson" target="_blank"><img class="icon" src="images/GitHub-Mark-64px.png" alt="link to my github"></a>
