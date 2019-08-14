@@ -92,15 +92,27 @@
 
 		<div class="container-fluid contact section" >
 			<div class="row min-vh-100 clearfix">
-				<div class="col-sm-5 col-4">
+				<div class="col-md-6 col-sm-5 col-4">
 
 				</div>
-				<div class="col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
+				<div class="col-md-6 col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
 					<h3 class="text-right text-light pb-3">Contact Me</h3>
-					<p class="text-right text-light ml-sm-3">Contact Form</p>
-				<div class="col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
-					<img class="ml-sm-3 placeholder-img" src="images/placeholder.jpg" alt="a blurry image">
-				</div>
+					<form>
+						<div class="form-group">
+								<label class="text-white" for="exampleFormInputName">Name</label>
+								<input type="text" class="form-control" id="inlineFormInputName" placeholder="Jane Doe">
+							</div>
+
+						<div class="form-group">
+							<label class="text-white" for="exampleFormControlInput1">Email address</label>
+							<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+						</div>
+
+						<div class="form-group">
+							<label class="text-white" for="exampleFormControlTextarea1">Message</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Leave a message</textarea>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
