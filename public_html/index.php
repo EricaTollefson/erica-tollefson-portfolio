@@ -109,7 +109,7 @@
 				</div>
 				<div class="col-md-6 col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
 					<h3 class="text-right text-light pb-3">Contact Me</h3>
-					<form id="form">
+					<form id="form" action="/php/mailer.php" method="post">
 						<div class="form-group">
 								<label class="text-white" for="exampleFormInputName">Name</label>
 								<input type="text" class="form-control" id="inlineFormInputName" name="inlineFormInputName" placeholder="Jane Doe">
@@ -125,9 +125,17 @@
 							<textarea class="form-control" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="3">Leave a message</textarea>
 						</div>
 					</form>
+					<!--empty area for form error/success output-->
+					<div class="row">
+						<div class="col-xs-12">
+							<div id="output-area"></div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
+
+
 
 		<div class="clearfix section">
 			<nav class="navbar navbar-collapse-xs navbar-expand-md navbar-light" style="background-color: #ebebeb;">

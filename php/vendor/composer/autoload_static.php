@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInitdacc6eb18d54affd513e71bf300c1cdf
 {
     public static $files = array (
-        '3f8bdd3b35094c73a26f0106e3c0f8b2' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/SendGrid.php',
+        '3f8bdd3b35094c73a26f0106e3c0f8b2' => __DIR__ . '/..',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -27,24 +27,24 @@ class ComposerStaticInitdacc6eb18d54affd513e71bf300c1cdf
     public static $prefixDirsPsr4 = array (
         'SendGrid\\Stats\\' => 
         array (
-            0 => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/stats',
+            0 => __DIR__ . '/..',
         ),
         'SendGrid\\Mail\\' => 
         array (
-            0 => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/mail',
+            0 => __DIR__ . '/..',
         ),
         'SendGrid\\Contacts\\' => 
         array (
-            0 => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/contacts',
+            0 => __DIR__ . '/..',
         ),
         'SendGrid\\' => 
         array (
-            0 => __DIR__ . '/..' . '/sendgrid/php-http-client/lib',
-            1 => __DIR__ . '/..' . '/sendgrid/sendgrid/lib',
+            0 => __DIR__ . '/..',
+            1 => __DIR__ . '/..',
         ),
         'ReCaptcha\\' => 
         array (
-            0 => __DIR__ . '/..' . '/google/recaptcha/src/ReCaptcha',
+            0 => __DIR__ . '/..',
         ),
     );
 

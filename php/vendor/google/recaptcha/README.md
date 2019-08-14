@@ -131,7 +131,7 @@ http://localhost:8080/
 
 These are also hosted on Google AppEngine Flexible environment at
 https://recaptcha-demo.appspot.com/. This is configured by
-[`app.yaml`](./app.yaml) which you can also use to [deploy to your own AppEngine
+[`app.yaml`](app.yaml) which you can also use to [deploy to your own AppEngine
 project](https://cloud.google.com/appengine/docs/flexible/php/download).
 
 ## Contributing
