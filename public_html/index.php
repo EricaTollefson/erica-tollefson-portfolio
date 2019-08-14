@@ -124,6 +124,7 @@
 							<label class="text-white" for="exampleFormControlTextarea1">Message</label>
 							<textarea class="form-control" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="3">Leave a message</textarea>
 						</div>
+						<button class="mt-2 rounded py-2 px-3" type="submit" class="btn btn-light">Submit</button>
 					</form>
 					<!--empty area for form error/success output-->
 					<div class="row">
