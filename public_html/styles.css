@@ -1,11 +1,10 @@
-h3, h5, p {
-	font-weight: lighter;
-
+body {
+	background-color: #191919;
 }
 
-p {
 
-
+h3, h5, p {
+	font-weight: lighter;
 }
 
 .animated {
@@ -15,8 +14,8 @@ p {
 
 .section {
 	opacity:0;
-	transform: translate(0, 30px);
-	transition: ease-out 2.5s 1s;
+	transform: translate(0, 0);
+	transition: ease-out 3s 1.5s;
 }
 
 .section.visible {
@@ -39,6 +38,7 @@ p {
 
 
 }
+
 
 .container-fluid {
 

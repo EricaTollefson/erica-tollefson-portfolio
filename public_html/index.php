@@ -50,7 +50,7 @@
 		<title>Erica Tollefson's Portfolio</title>
 	</head>
 
-	<body style="background-color: #191919;">
+	<body>
 		<div class="clearfix">
 			<nav class="navbar navbar-collapse-xs navbar-dark float-right mr-3 mb-md-n5 mt-md-3 mb-n2 mt-3">
 				<div class="container d-inline text-right">
@@ -91,12 +91,12 @@
 			</div>
 
 			<div class="container-fluid portfolio section">
-				<div class="row min-vh-100 clearfix">
-					<div class="col-sm-4 col-4 my-auto d-block float-left pl-4 py-4" style="width:auto;">
+				<div class="row min-vh-100 clearfix mb-4">
+					<div class="col-md-4 col-7 my-auto d-block float-left pl-3 pl-sm-4 py-4" style="width:auto;">
 						<h3 class="text-left text-light pb-3">Portfolio</h3>
 						<p class="text-left text-light mr-sm-3">Tremor est vivos magna. Expansis ulnis video missing carnem armis caeruleum in locis. A morbo amarus in auras. Nihil horum sagittis tincidunt, gelida portenta. The unleashed virus est, et iam mortui ambulabunt super terram. Souless mortuum oculos attonitos back zombies. An hoc incipere Clairvius Narcisse, an ante? Is bello mundi z?</p>
 					</div>
-					<div class="col-sm-5 col-3 my-auto">
+					<div class="col-md-5 col-7 my-auto pl-3 pl-sm-4">
 						<img class="placeholder-img" src="images/placeholder.jpg" alt="a blurry image">
 					</div>
 				</div>
@@ -138,11 +138,11 @@
 
 
 
-		<div class="clearfix section">
-			<nav class="navbar navbar-collapse-xs navbar-expand-md navbar-light" style="background-color: #ebebeb;">
+		<div class="clearfix ">
+			<nav class="navbar navbar-collapse-xs navbar-expand-md navbar-dark" style="background-color: #191919;">
 				<div class="container d-inline ml-0 mw-100">
-					<a class="navbar-brand float-md-right mr-md-0 my-md-0" href="https://github.com/EricaTollefson" target="_blank"><img class="icon" src="images/GitHub-Mark-64px.png" alt="link to my github"></a>
-					<a class="navbar-brand float-md-right mr-md-3 my-md-0" href="https://www.linkedin.com/in/erica-tollefson-nm/" target="_blank"><img class="icon" src="images/linkedin-in-brands.svg" alt="link to my linkedin page"></a>
+					<a class="navbar-brand float-md-right mr-md-0 my-md-0" href="https://github.com/EricaTollefson" target="_blank"><img class="icon" src="images/GitHub-Mark-Light-64px.png" alt="link to my github"></a>
+					<a class="navbar-brand float-md-right mr-md-3 my-md-0" href="https://www.linkedin.com/in/erica-tollefson-nm/" target="_blank"><img class="icon" src="images/LI-In-Bug.png" alt="link to my linkedin page"></a>
 					<button class="navbar-toggler float-left mt-1 mr-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
