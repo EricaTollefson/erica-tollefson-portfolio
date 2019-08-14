@@ -10,7 +10,7 @@
 				integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 		<!-- Additional CSS -->
-		<link rel="stylesheet" href="styles.css" type="text/css"/>
+		<link rel="stylesheet" href="css/styles.css" type="text/css"/>
 
 		<!-- jQuery, then Popper.js, then Bootstrap JS-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -109,7 +109,7 @@
 				</div>
 				<div class="col-md-6 col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
 					<h3 class="text-right text-light pb-3">Contact Me</h3>
-					<form id="form" action="/php/mailer.php" method="post">
+					<form id="form" action="/php/index.php" method="post">
 						<div class="form-group">
 								<label class="text-white" for="exampleFormInputName">Name</label>
 								<input type="text" class="form-control" id="inlineFormInputName" name="inlineFormInputName" placeholder="Jane Doe">
