@@ -29,6 +29,18 @@
 			integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
 			crossorigin="anonymous"></script>
 
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
+
 		<!-- animate.css stylesheet -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
@@ -97,20 +109,20 @@
 				</div>
 				<div class="col-md-6 col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
 					<h3 class="text-right text-light pb-3">Contact Me</h3>
-					<form>
+					<form id="form">
 						<div class="form-group">
 								<label class="text-white" for="exampleFormInputName">Name</label>
-								<input type="text" class="form-control" id="inlineFormInputName" placeholder="Jane Doe">
+								<input type="text" class="form-control" id="inlineFormInputName" name="inlineFormInputName" placeholder="Jane Doe">
 							</div>
 
 						<div class="form-group">
 							<label class="text-white" for="exampleFormControlInput1">Email address</label>
-							<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+							<input type="email" class="form-control" id="exampleFormControlInput1" name="exampleFormControlInput1" placeholder="name@example.com">
 						</div>
 
 						<div class="form-group">
 							<label class="text-white" for="exampleFormControlTextarea1">Message</label>
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Leave a message</textarea>
+							<textarea class="form-control" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="3">Leave a message</textarea>
 						</div>
 					</form>
 				</div>
