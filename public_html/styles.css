@@ -69,18 +69,18 @@ h3, h5, p {
 	}
 	.navbar-collapse.collapsing.bottom {
 		height: auto;
-		-webkit-transition: bottom 0.1s ease-out;
-		-o-transition: bottom 0.1s ease-out;
-		-moz-transition: bottom 0.1s ease-out;
-		transition: bottom 0.1s ease-out;
+		-webkit-transition: bottom 0.3s ease-in;
+		-o-transition: bottom 0.3s ease-in;
+		-moz-transition: bottom 0.3s ease-in;
+		transition: bottom 0.3s ease-in;
 		bottom: -50%;
 	}
 	.navbar-collapse.show.bottom {
 		bottom: 10;
-		-webkit-transition: bottom 0.1s ease-out;
-		-o-transition: bottom 0.1s ease-out;
-		-moz-transition: bottom 0.1s ease-out;
-		transition: bottom 0.1s ease-out;
+		-webkit-transition: bottom 0.1s ease-in;
+		-o-transition: bottom 0.1s ease-in;
+		-moz-transition: bottom 0.1s ease-in;
+		transition: bottom 0.1s ease-in;
 	}
 
 	.header {
@@ -91,9 +91,9 @@ h3, h5, p {
 
 @media (min-width: 768px) {
 	.nav-item.bottom-nav {
-		color: #303030 !important;
+		color: #f2f2f2 !important;
 	}
 	a.nav-link.bottom-nav:hover {
-		color: #919191 !important;
+		color: #a6a6a6 !important;
 	}
 }
