@@ -57,6 +57,37 @@ h3, h5, p {
 }
 
 
+.g-recaptcha iframe {
+	max-width: 100% !important;
+	transform:scale(0.77) !important;
+	-webkit-transform:scale(0.77) !important;
+	transform-origin: center center !important;
+	-webkit-transform-origin: center center !important;
+	margin-left:5px;
+}
+#rc-imageselect {
+	transform:scale(0.77) !important;
+	-webkit-transform:scale(0.77) !important;
+	transform-origin:0 0 !important;
+	-webkit-transform-origin:0 0 !important;
+}
+
+.g-recaptcha iframe {
+	max-width: 100% !important;
+	transform:scale(0.77) !important;
+	-webkit-transform:scale(0.77) !important;
+	transform-origin: left !important;
+	-webkit-transform-origin: left !important;
+	margin-left:0px;
+	padding-right: 10px;
+}
+#rc-imageselect {
+	transform:scale(0.77) !important;
+	-webkit-transform:scale(0.77) !important;
+	transform-origin:0 0 !important;
+	-webkit-transform-origin:0 0 !important;
+}
+
 @media (max-width: 768px) {
 	.navbar-collapse.bottom {
 		position: absolute;
@@ -75,12 +106,13 @@ h3, h5, p {
 		transition: bottom 0.3s ease-in;
 		bottom: -50%;
 	}
+
 	.navbar-collapse.show.bottom {
-		bottom: 10;
-		-webkit-transition: bottom 0.1s ease-in;
-		-o-transition: bottom 0.1s ease-in;
-		-moz-transition: bottom 0.1s ease-in;
-		transition: bottom 0.1s ease-in;
+		bottom: 50px;
+		-webkit-transition: bottom 0.3s linear;
+		-o-transition: bottom 0.3s linear;
+		-moz-transition: bottom 0.3s linear;
+		transition: bottom 0.3s linear;
 	}
 
 	.header {

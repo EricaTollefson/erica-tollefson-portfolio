@@ -45,7 +45,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
 		<!-- My JavaScript -->
-		<script src="script.js"></script>
+		<script src="js/script.js"></script>
 
 		<title>Erica Tollefson's Portfolio</title>
 	</head>
@@ -72,7 +72,7 @@
 
 		<div class="container-fluid header animated fadeIn">
 			<!--parent must be full height-->
-			<div class="row min-vh-100 w-100">
+			<div class="row min-vh-100">
 					<div class="p-0 my-auto mx-auto mr-lg-5 mr-xl-4 col-md-1 d-block" style="width:auto;"><img class="placeholder-img" src="images/placeholder.jpg" alt="a blurry image"></div>
 				<div class="p-0 mt-0 mb-5 my-md-auto mx-auto ml-lg-5 ml-xl-4 col-md-5 d-block"><h3 class="text-center text-light" >Erica Tollefson</h3><h5 class="text-center text-light">Web Developer</h5></div>
 				</div>
@@ -102,29 +102,32 @@
 				</div>
 			</div>
 
-		<div class="container-fluid contact section" >
+		<div class="container-fluid contact section">
 			<div class="row min-vh-100 clearfix">
 				<div class="col-md-6 col-sm-5 col-4">
 
 				</div>
 				<div class="col-md-6 col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
 					<h3 class="text-right text-light pb-3">Contact Me</h3>
-					<form id="form" action="/php/index.php" method="post">
+					<form id="erica-form" action="../php/" method="post">
 						<div class="form-group">
 								<label class="text-white" for="exampleFormInputName">Name</label>
-								<input type="text" class="form-control" id="inlineFormInputName" name="inlineFormInputName" placeholder="Jane Doe">
+								<input type="text" class="form-control" id="inlineFormInputName" name="name" placeholder="Jane Doe">
 							</div>
 
 						<div class="form-group">
 							<label class="text-white" for="exampleFormControlInput1">Email address</label>
-							<input type="email" class="form-control" id="exampleFormControlInput1" name="exampleFormControlInput1" placeholder="name@example.com">
+							<input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
 						</div>
 
-						<div class="form-group">
+						<div class="form-group pb-2">
 							<label class="text-white" for="exampleFormControlTextarea1">Message</label>
-							<textarea class="form-control" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="3">Leave a message</textarea>
+							<textarea class="form-control" id="exampleFormControlTextarea1" name="message" placeholder="Leave a message" rows="3"></textarea>
 						</div>
-						<button class="mt-2 rounded py-2 px-3 btn btn-light" type="submit">Submit</button>
+						<!-- reCAPTCHA -->
+						<div class="g-recaptcha" data-sitekey="6LdBCrMUAAAAABvnoyaoeXifmWTTwLdEMWMLnw9o"></div>
+						<button class="my-4 rounded py-2 px-3 btn btn-light" type="submit">Submit</button>
+						<button class="my-4 ml-2 rounded py-2 px-3 btn btn-light" type="reset">Reset</button>
 					</form>
 					<!--empty area for form error/success output-->
 					<div class="row">
