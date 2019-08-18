@@ -66,7 +66,7 @@
 			</nav>
 		</div>
 
-		<div class="container-fluid header animated fadeIn section" id="header">
+		<div class="container-fluid header" id="header">
 			<!--parent must be full height-->
 			<div class="row min-vh-100">
 					<div class="p-0 my-auto mx-auto mr-lg-5 mr-xl-4 col-md-1 d-block" style="width:auto;"><img class="placeholder-img" src="images/placeholder.jpg" alt="a blurry image"></div>
@@ -74,7 +74,7 @@
 				</div>
 			</div>
 
-			<div class="container-fluid about" id="about">
+			<div class="container-fluid about section" id="about">
 				<div class="row min-vh-100 clearfix">
 					<div class="col-sm-5 col-4">
 

@@ -7,10 +7,10 @@ h3, h5, p {
 	font-weight: lighter;
 }
 
-.animated {
+/*.animated {
 	animation-duration: 2s;
 	animation-delay: 1s;
-}
+}*/
 
 .section {
 	opacity:0;
