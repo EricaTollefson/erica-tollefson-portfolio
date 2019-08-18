@@ -104,7 +104,7 @@
 
 				</div>
 				<div class="col-md-6 col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
-					<h3 class="text-right text-light pb-3">Contact Me</h3>
+					<h3 class="text-right text-light pb-3">Find Me</h3>
 					<form id="erica-form" action="../php/" method="post">
 						<div class="form-group">
 								<label class="text-white" for="exampleFormInputName">Name</label>
@@ -137,7 +137,7 @@
 
 
 
-		<div class="clearfix ">
+		<div class="clearfix">
 			<nav class="navbar navbar-collapse-xs navbar-expand-md navbar-dark" style="background-color: #191919;">
 				<div class="container d-inline ml-0 mw-100">
 					<a class="navbar-brand float-md-right mr-md-0 my-md-0" href="https://github.com/EricaTollefson" target="_blank"><img class="icon" src="images/GitHub-Mark-Light-64px.png" alt="link to my github"></a>

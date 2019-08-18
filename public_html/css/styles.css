@@ -7,10 +7,24 @@ h3, h5, p {
 	font-weight: lighter;
 }
 
-/*.animated {
-	animation-duration: 2s;
-	animation-delay: 1s;
-}*/
+.header {
+	margin-bottom: -60px !important;
+}
+
+/* This section calls the onLoad animation for the header section*/
+@keyframes onLoad {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+.header {
+	animation: 5.5s linear 0s 1 onLoad;
+}
+
 
 .section {
 	opacity:0;
@@ -45,7 +59,7 @@ h3, h5, p {
 }
 
 .about {
- border: 2px dotted red;
+	border: 2px dotted red;
 }
 
 .portfolio {
@@ -74,7 +88,7 @@ h3, h5, p {
 
 @media (max-width: 768px) {
 	.navbar-collapse.bottom {
-		position: absolute;
+		position: fixed;
 		bottom: 60px;
 		left: 0;
 		padding-left: 15px;
@@ -84,25 +98,20 @@ h3, h5, p {
 	}
 	.navbar-collapse.collapsing.bottom {
 		height: auto;
-		-webkit-transition: bottom 0.3s ease-in;
-		-o-transition: bottom 0.3s ease-in;
-		-moz-transition: bottom 0.3s ease-in;
-		transition: bottom 0.3s ease-in;
+		-webkit-transition: bottom 0.8s ease-in;
+		-o-transition: bottom 0.8s ease-in;
+		-moz-transition: bottom 0.8s ease-in;
+		transition: bottom 0.8s ease-in;
 		bottom: -50%;
 	}
 
 	.navbar-collapse.show.bottom {
 		bottom: 50px;
-		-webkit-transition: bottom 0.3s linear;
-		-o-transition: bottom 0.3s linear;
-		-moz-transition: bottom 0.3s linear;
-		transition: bottom 0.3s linear;
+		-webkit-transition: bottom 0.7s ease;
+		-o-transition: bottom 0.7s ease;
+		-moz-transition: bottom 0.7s ease;
+		transition: bottom 0.7s ease;
 	}
-
-	.header {
-		margin-bottom: -60px !important;
-	}
-
 }
 
 @media (min-width: 768px) {
