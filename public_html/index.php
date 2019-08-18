@@ -40,10 +40,6 @@
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
-
-		<!-- animate.css stylesheet -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
 		<!-- My JavaScript -->
 		<script src="js/script.js"></script>
 
@@ -52,7 +48,7 @@
 
 	<body>
 		<div class="clearfix">
-			<nav class="navbar navbar-collapse-xs navbar-dark float-right mr-3 mb-md-n5 mt-md-3 mb-n2 mt-3">
+			<nav class="navbar navbar-collapse-xs navbar-dark float-right mr-3 mb-md-n5 mb-n2 mt-3">
 				<div class="container d-inline text-right">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
 							  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,7 +66,7 @@
 			</nav>
 		</div>
 
-		<div class="container-fluid header animated fadeIn">
+		<div class="container-fluid header animated fadeIn section" id="header">
 			<!--parent must be full height-->
 			<div class="row min-vh-100">
 					<div class="p-0 my-auto mx-auto mr-lg-5 mr-xl-4 col-md-1 d-block" style="width:auto;"><img class="placeholder-img" src="images/placeholder.jpg" alt="a blurry image"></div>
@@ -78,7 +74,7 @@
 				</div>
 			</div>
 
-			<div class="container-fluid about section" >
+			<div class="container-fluid about" id="about">
 				<div class="row min-vh-100 clearfix">
 					<div class="col-sm-5 col-4">
 
@@ -90,7 +86,7 @@
 				</div>
 			</div>
 
-			<div class="container-fluid portfolio section">
+			<div class="container-fluid portfolio section" id="portfolio">
 				<div class="row min-vh-100 clearfix mb-4">
 					<div class="col-md-4 col-7 my-auto d-block float-left pl-3 pl-sm-4 py-4" style="width:auto;">
 						<h3 class="text-left text-light pb-3">Portfolio</h3>
@@ -102,7 +98,7 @@
 				</div>
 			</div>
 
-		<div class="container-fluid contact section">
+		<div class="container-fluid contact section" id="contact">
 			<div class="row min-vh-100 clearfix">
 				<div class="col-md-6 col-sm-5 col-4">
 
