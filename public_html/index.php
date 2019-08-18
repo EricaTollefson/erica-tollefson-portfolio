@@ -70,7 +70,7 @@
 			<!--parent must be full height-->
 			<div class="row min-vh-100">
 					<div class="p-0 my-auto mx-auto mr-lg-5 mr-xl-4 col-md-1 d-block" style="width:auto;"><img class="placeholder-img" src="images/placeholder.jpg" alt="a blurry image"></div>
-				<div class="p-0 mt-0 mb-5 my-md-auto mx-auto ml-lg-5 ml-xl-4 col-md-5 d-block"><h3 class="text-center text-light" >Erica Tollefson</h3><h5 class="text-center text-light">Web Developer</h5></div>
+				<div class="p-0 mt-0 mb-5 my-md-auto mx-auto ml-lg-5 ml-xl-4 col-md-5 d-block"><h1 class="text-center text-light" >Erica Tollefson</h1><h3 class="text-center text-light">Web Developer</h3></div>
 				</div>
 			</div>
 
@@ -80,7 +80,7 @@
 
 					</div>
 					<div class="col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
-						<h3 class="text-right text-light pb-3">About Me</h3>
+						<h1 class="text-right text-light pb-3">About Me</h1>
 						<p class="text-right text-light ml-sm-3">Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit​​, morbo vel maleficia? De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. Qui offenderit rapto, terribilem incessu. The voodoo sacerdos suscitat mortuos comedere carnem. Search for solum oculi eorum defunctis cerebro. Nescio an Undead zombies.</p>
 					</div>
 				</div>
@@ -88,12 +88,14 @@
 
 			<div class="container-fluid portfolio section" id="portfolio">
 				<div class="row min-vh-100 clearfix mb-4">
-					<div class="col-md-4 col-7 my-auto d-block float-left pl-3 pl-sm-4 py-4" style="width:auto;">
-						<h3 class="text-left text-light pb-3">Portfolio</h3>
-						<p class="text-left text-light mr-sm-3">Tremor est vivos magna. Expansis ulnis video missing carnem armis caeruleum in locis. A morbo amarus in auras. Nihil horum sagittis tincidunt, gelida portenta. The unleashed virus est, et iam mortui ambulabunt super terram. Souless mortuum oculos attonitos back zombies. An hoc incipere Clairvius Narcisse, an ante? Is bello mundi z?</p>
+					<div class="col-md-4 col-7 my-auto d-block float-left pl-3 pl-sm-4 pt-5 pb-1 py-md-0" style="width:auto;">
+						<h1 class="text-left text-light pb-3">Portfolio</h1>
+						<p class="text-left text-light mr-sm-3">The Signs on 66 web application was designed with two other developers during the Deep Dive Coding bootcamp. This interactive web application allows users to locate historic Route 66 neon signs in Albuquerque and upload their own images of the signs to the site.</p>
+						<p class="text-left text-light mr-sm-3">Signs on 66 was developed utilizing a combination of HTML5, CSS3, Bootstrap, JavaScript, and jQuery for the frontend, and PHP7.3, and MySQL were used in the backend development. Geolocation capabilities were integrated using the Google Maps API.</p>
 					</div>
-					<div class="col-md-5 col-7 my-auto pl-3 pl-sm-4">
-						<img class="placeholder-img" src="images/placeholder.jpg" alt="a blurry image">
+					<div class="col-md-5 col-7 my-auto pl-3 pl-sm-4 pb-4 pb-md-0">
+						<img class="placeholder-img" src="images/Monterey_placeholder.jpg" alt="image of Monterey Motel Sign">
+						<div class="container d-grid mt-3 mx-5"><a class="btn btn-outline-light" href="#header" role="button">Visit Signs on 66</a></div>
 					</div>
 				</div>
 			</div>
@@ -104,7 +106,7 @@
 
 				</div>
 				<div class="col-md-6 col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
-					<h3 class="text-right text-light pb-3">Find Me</h3>
+					<h1 class="text-right text-light pb-3">Find Me</h1>
 					<form id="erica-form" action="../php/" method="post">
 						<div class="form-group">
 								<label class="text-white" for="exampleFormInputName">Name</label>
