@@ -43,6 +43,10 @@
 		<!-- My JavaScript -->
 		<script src="js/script.js"></script>
 
+		<!-- Font Awesome CDN  -->
+		<script src="https://kit.fontawesome.com/cf2edcd587.js"></script>
+
+
 		<title>Erica Tollefson's Portfolio</title>
 	</head>
 
@@ -81,13 +85,14 @@
 					</div>
 					<div class="col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
 						<h1 class="text-right text-light pb-3">About Me</h1>
-						<p class="text-right text-light ml-sm-3">Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit​​, morbo vel maleficia? De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. Qui offenderit rapto, terribilem incessu. The voodoo sacerdos suscitat mortuos comedere carnem. Search for solum oculi eorum defunctis cerebro. Nescio an Undead zombies.</p>
+						<p class="text-justify text-light ml-sm-3">A bit of my background: I am a recent graduate of Santa Fe Community College (with degrees in Web Design and Photography), as well as CNM Ingenuity's Full Stack Web Development Bootcamp. While working as an intern at Deep Dive Coding, I was part of a team that created the Signs on 66 web application that helps users find and photograph historic Route 66 neon signs in Albuquerque.</p>
+						<p class="text-justify text-light ml-sm-3">I am currently a freelance web developer who loves to design websites from the ground up, as well as increase the beauty and performance of existing sites. I have a passion for helping business owners reach their goals by overcoming technology obstacles. I can assist businesses with technology needs from HTML, CSS, JavaScript and database needs, to WordPress design and maintenance. Please connect with me on <a href="https://www.linkedin.com/in/erica-tollefson-nm/" class="text-warning" target="_blank">LinkedIn </a>or <a href="#contact" class="text-warning" target="_blank">contact me.</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="container-fluid portfolio section" id="portfolio">
-				<div class="row min-vh-100 clearfix mb-4">
+				<div class="row min-vh-100 clearfix my-md-auto mb-4">
 					<div class="col-md-4 col-7 my-auto d-block float-left pl-3 pl-sm-4 pt-5 pb-1 py-md-0" style="width:auto;">
 						<h1 class="text-left text-light pb-3">Portfolio</h1>
 						<p class="text-left text-light mr-sm-3">The Signs on 66 web application was designed with two other developers during the Deep Dive Coding bootcamp. This interactive web application allows users to locate historic Route 66 neon signs in Albuquerque and upload their own images of the signs to the site.</p>
@@ -140,10 +145,12 @@
 
 
 		<div class="clearfix">
-			<nav class="navbar navbar-collapse-xs navbar-expand-md navbar-dark" style="background-color: #191919;">
+			<nav class="navbar navbar-collapse-xs navbar-expand-md navbar-dark bottom-nav">
 				<div class="container d-inline ml-0 mw-100">
-					<a class="navbar-brand float-md-right mr-md-0 my-md-0" href="https://github.com/EricaTollefson" target="_blank"><img class="icon" src="images/GitHub-Mark-Light-64px.png" alt="link to my github"></a>
-					<a class="navbar-brand float-md-right mr-md-3 my-md-0" href="https://www.linkedin.com/in/erica-tollefson-nm/" target="_blank"><img class="icon" src="images/LI-In-Bug.png" alt="link to my linkedin page"></a>
+
+					<a class="navbar-brand float-md-right ml-1 ml-md-3 my-md-0" href="./images/Erica-Tollefson-Resume.pdf" target="_blank"><i class="far fa-file fa-2x"></i></a>
+					<a class="navbar-brand float-md-right mr-md-0 my-md-0" href="https://github.com/EricaTollefson" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+					<a class="navbar-brand float-md-right mr-md-3 my-md-0" href="https://www.linkedin.com/in/erica-tollefson-nm/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
 					<button class="navbar-toggler float-left mt-1 mr-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>

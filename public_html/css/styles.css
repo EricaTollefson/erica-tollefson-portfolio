@@ -1,17 +1,12 @@
 body {
-	background-color: #191919;
+	background-color: black;
 }
-
 
 h1, h2, h3, h4, h5, p {
 	font-weight: lighter;
 }
 
-.header {
-	margin-bottom: -60px !important;
-}
-
-/* This section calls the onLoad animation for the header section*/
+/* Call the onLoad animation for the header section*/
 @keyframes onLoad {
 	0% {
 		opacity:0;
@@ -23,39 +18,23 @@ h1, h2, h3, h4, h5, p {
 
 .header {
 	animation: 5.5s linear 0s 1 onLoad;
+	margin-bottom: -60px !important;
 }
 
 /* animation on scroll for about, portfolio, contact sections*/
 .section {
 	opacity:0;
-	transform: translate(0, 0);
-	transition: ease-out 3s 1.5s;
+	transition: ease-out 2.5s 1.5s;
 }
 
 .section.visible {
 	opacity:1;
-	transform: translate(0, 0);
 }
 
 
 .placeholder-img {
 	width: 290px;
 	height: auto;
-}
-
-.icon {
-	width: 35px;
-	height: auto;
-}
-
-.header {
-
-
-}
-
-
-.container-fluid {
-
 }
 
 .about {
@@ -84,6 +63,10 @@ h1, h2, h3, h4, h5, p {
 	-webkit-transform:scale(0.77) !important;
 	transform-origin:0 0 !important;
 	-webkit-transform-origin:0 0 !important;
+}
+
+.bottom-nav {
+	background-color: black;
 }
 
 @media (max-width: 768px) {
