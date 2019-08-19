@@ -32,12 +32,17 @@ h1, h2, h3, h4, h5, p {
 }
 
 
+.header-img {
+	width: 500px;
+	height: auto;
+}
+
 .placeholder-img {
 	width: 290px;
 	height: auto;
 }
 
-.about {
+/*.about {
 	border: 2px dotted red;
 }
 
@@ -47,7 +52,7 @@ h1, h2, h3, h4, h5, p {
 
 .contact {
 	border: 2px dotted deeppink;
-}
+}*/
 
 .g-recaptcha iframe {
 	max-width: 100% !important;

@@ -73,7 +73,7 @@
 		<div class="container-fluid header" id="header">
 			<!--parent must be full height-->
 			<div class="row min-vh-100">
-					<div class="p-0 my-auto mx-auto mr-lg-5 mr-xl-4 col-md-1 d-block" style="width:auto;"><img class="placeholder-img" src="images/placeholder.jpg" alt="a blurry image"></div>
+					<div class="p-0 my-auto mx-auto mr-lg-5 mr-xl-4 col-md-1 d-block" style="width:auto;"><img class="header-img" src="images/teal.jpg" alt="an image"></div>
 				<div class="p-0 mt-0 mb-5 my-md-auto mx-auto ml-lg-5 ml-xl-4 col-md-5 d-block"><h1 class="text-center text-light" >Erica Tollefson</h1><h3 class="text-center text-light">Web Developer</h3></div>
 				</div>
 			</div>
