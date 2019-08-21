@@ -2,9 +2,18 @@ body {
 	background-color: black;
 }
 
+h1, h2, h3, h4, h5 {
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
 h1, h2, h3, h4, h5, p {
 	font-weight: lighter;
 }
+
 
 /* Call the onLoad animation for the header section*/
 @keyframes onLoad {
@@ -15,25 +24,24 @@ h1, h2, h3, h4, h5, p {
 		opacity:1;
 	}
 }
-
 .header {
 	animation: 5.5s linear 0s 1 onLoad;
 	margin-bottom: -60px !important;
 }
+
 
 /* animation on scroll for about, portfolio, contact sections*/
 .section {
 	opacity:0;
 	transition: ease-out 2.5s 1.5s;
 }
-
 .section.visible {
 	opacity:1;
 }
 
 
 .header-img {
-	width: 500px;
+	width: 600px;
 	height: auto;
 }
 
@@ -54,6 +62,8 @@ h1, h2, h3, h4, h5, p {
 	border: 2px dotted deeppink;
 }*/
 
+
+/* make google recaptcha responsive */
 .g-recaptcha iframe {
 	max-width: 100% !important;
 	transform:scale(0.77) !important;
@@ -68,45 +78,4 @@ h1, h2, h3, h4, h5, p {
 	-webkit-transform:scale(0.77) !important;
 	transform-origin:0 0 !important;
 	-webkit-transform-origin:0 0 !important;
-}
-
-.bottom-nav {
-	background-color: black;
-}
-
-@media (max-width: 768px) {
-	.navbar-collapse.bottom {
-		position: fixed;
-		bottom: 60px;
-		left: 0;
-		padding-left: 15px;
-		padding-right: 15px;
-		padding-bottom: 15px;
-		width: 100%;
-	}
-	.navbar-collapse.collapsing.bottom {
-		height: auto;
-		-webkit-transition: bottom 0.8s ease-in;
-		-o-transition: bottom 0.8s ease-in;
-		-moz-transition: bottom 0.8s ease-in;
-		transition: bottom 0.8s ease-in;
-		bottom: -50%;
-	}
-
-	.navbar-collapse.show.bottom {
-		bottom: 50px;
-		-webkit-transition: bottom 0.7s ease;
-		-o-transition: bottom 0.7s ease;
-		-moz-transition: bottom 0.7s ease;
-		transition: bottom 0.7s ease;
-	}
-}
-
-@media (min-width: 768px) {
-	.nav-item.bottom-nav {
-		color: #f2f2f2 !important;
-	}
-	a.nav-link.bottom-nav:hover {
-		color: #a6a6a6 !important;
-	}
 }

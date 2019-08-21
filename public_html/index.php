@@ -46,6 +46,8 @@
 		<!-- Font Awesome CDN  -->
 		<script src="https://kit.fontawesome.com/cf2edcd587.js"></script>
 
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300|Open+Sans:300|Source+Sans+Pro:300|Roboto:100|Julius+Sans+One&display=swap" rel="stylesheet">
+
 
 		<title>Erica Tollefson's Portfolio</title>
 	</head>
@@ -73,10 +75,15 @@
 		<div class="container-fluid header" id="header">
 			<!--parent must be full height-->
 			<div class="row min-vh-100">
-					<div class="p-0 my-auto mx-auto mr-lg-5 mr-xl-4 col-md-1 d-block" style="width:auto;"><img class="header-img" src="images/teal.jpg" alt="an image"></div>
-				<div class="p-0 mt-0 mb-5 my-md-auto mx-auto ml-lg-5 ml-xl-4 col-md-5 d-block"><h1 class="text-center text-light" >Erica Tollefson</h1><h3 class="text-center text-light">Web Developer</h3></div>
+				<div class="col-md-2 col-lg-1 col-xl-1 d-block p-0 my-auto mx-auto" style="width:auto;">
+					<img class="header-img" src="images/teal.jpg" alt="an image">
+				</div>
+				<div class="col-md-8 col-lg-4 col-xl-3 d-block p-0 mt-0 mb-5 my-md-auto mx-auto ml-md-5 ml-lg-4 ml-xl-0">
+					<h1 class="text-center text-light" >Erica Tollefson</h1>
+					<h3 class="text-center text-light">Web Developer</h3>
 				</div>
 			</div>
+		</div>
 
 			<div class="container-fluid about section" id="about">
 				<div class="row min-vh-100 clearfix">
@@ -86,7 +93,7 @@
 					<div class="col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
 						<h1 class="text-right text-light pb-3">About Me</h1>
 						<p class="text-justify text-light ml-sm-3">A bit of my background: I am a recent graduate of Santa Fe Community College (with degrees in Web Design and Photography), as well as CNM Ingenuity's Full Stack Web Development Bootcamp. While working as an intern at Deep Dive Coding, I was part of a team that created the Signs on 66 web application that helps users find and photograph historic Route 66 neon signs in Albuquerque.</p>
-						<p class="text-justify text-light ml-sm-3">I am currently a freelance web developer who loves to design websites from the ground up, as well as increase the beauty and performance of existing sites. I have a passion for helping business owners reach their goals by overcoming technology obstacles. I can assist businesses with technology needs from HTML, CSS, JavaScript and database needs, to WordPress design and maintenance. Please connect with me on <a href="https://www.linkedin.com/in/erica-tollefson-nm/" class="text-warning" target="_blank">LinkedIn </a>or <a href="#contact" class="text-warning" target="_blank">contact me.</a></p>
+						<p class="text-justify text-light ml-sm-3">I am currently a freelance web developer who loves to design websites from the ground up, as well as increase the beauty and performance of existing sites. I have a passion for helping business owners reach their goals by overcoming technology obstacles. I can assist businesses with technology needs from HTML, CSS, JavaScript and database needs, to WordPress design and maintenance. Please connect with me on <a href="https://www.linkedin.com/in/erica-tollefson-nm/" class="text-info" target="_blank">LinkedIn </a>or <a href="#contact" class="text-info" target="_blank">contact me.</a></p>
 					</div>
 				</div>
 			</div>
@@ -108,7 +115,6 @@
 		<div class="container-fluid contact section" id="contact">
 			<div class="row min-vh-100 clearfix">
 				<div class="col-md-6 col-sm-5 col-4">
-
 				</div>
 				<div class="col-md-6 col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
 					<h1 class="text-right text-light pb-3">Find Me</h1>
@@ -142,28 +148,13 @@
 			</div>
 		</div>
 
-
-
-		<div class="clearfix">
-			<nav class="navbar navbar-collapse-xs navbar-expand-md navbar-dark bottom-nav">
-				<div class="container d-inline ml-0 mw-100">
-
-					<a class="navbar-brand float-md-right ml-1 ml-md-3 my-md-0" href="./images/Erica-Tollefson-Resume.pdf" target="_blank"><i class="far fa-file fa-2x"></i></a>
-					<a class="navbar-brand float-md-right mr-md-0 my-md-0" href="https://github.com/EricaTollefson" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
-					<a class="navbar-brand float-md-right mr-md-3 my-md-0" href="https://www.linkedin.com/in/erica-tollefson-nm/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-					<button class="navbar-toggler float-left mt-1 mr-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse bottom" id="navbarNavAltMarkup">
-						<div class="navbar-nav ml-auto mx-md-0 mt-md-1">
-							<a class="nav-item nav-link text-light bottom-nav" href="#header">Home</a>
-							<a class="nav-item nav-link text-light bottom-nav" href="#about">About</a>
-							<a class="nav-item nav-link text-light bottom-nav" href="#portfolio">Portfolio</a>
-							<a class="nav-item nav-link text-light bottom-nav" href="#contact">Contact</a>
-						</div>
-					</div>
-				</div>
-			</nav>
+		<div class="clearfix mb-3">
+			<div class="container d-inline ml-0 mw-100">
+				<a class="text-white" href="#header"><i class="fas fa-arrow-up fa-2x"></i></a>
+				<a class="text-white float-md-right mx-2 mr-md-4 ml-md-3 my-md-0" href="./images/Erica-Tollefson-Resume.pdf" target="_blank"><i class="far fa-file-alt fa-2x"></i></a>
+				<a class="text-white float-md-right mr-2 mr-md-0 my-md-0" href="https://github.com/EricaTollefson" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+				<a class="text-white float-md-right mr-md-3 my-md-0" href="https://www.linkedin.com/in/erica-tollefson-nm/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+			</div>
 		</div>
 
 	</body>
