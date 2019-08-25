@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 				integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-		<!-- Additional CSS -->
+		<!-- My CSS -->
 		<link rel="stylesheet" href="css/styles.css" type="text/css"/>
 
 		<!-- jQuery, then Popper.js, then Bootstrap JS-->
@@ -46,6 +46,7 @@
 		<!-- Font Awesome CDN  -->
 		<script src="https://kit.fontawesome.com/cf2edcd587.js"></script>
 
+		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300|Open+Sans:300|Source+Sans+Pro:300|Roboto:100|Julius+Sans+One&display=swap" rel="stylesheet">
 
 

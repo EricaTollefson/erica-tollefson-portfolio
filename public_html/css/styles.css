@@ -1,5 +1,21 @@
 body {
 	background-color: black;
+	height: 100%;
+}
+
+@media (min-width: 1585px) {
+	body {
+		background-image: url("../images/lightwave-xxl.jpg");
+	}
+}
+
+@media (max-width: 1584px) {
+	body {
+		background-image: url("../images/lightwave-xl.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
 
 h1, h2, h3, h4, h5 {
