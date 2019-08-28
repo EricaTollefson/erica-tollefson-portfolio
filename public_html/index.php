@@ -79,7 +79,7 @@
 			<div class="row min-vh-100">
 				<div class="col-9 col-sm-9 col-md-2 col-lg-1 col-xl-1 d-inline p-sm-0 my-auto mx-auto header-display"
 					  style="width:auto;">
-					<img class="header-img pl-2" src="images/teal-flower.jpg" alt="an image">
+					<img class="header-img pl-2" src="images/pink-flower.jpg" alt="a flower-like image">
 				</div>
 				<div class="col-11 col-sm-9 col-md-8 col-lg-4 col-xl-3 d-block p-0 mt-0 mb-5 my-md-auto mx-auto ml-md-5 ml-lg-4 ml-xl-0" style="width:auto;">
 					<h1 class="text-center text-light">Erica Tollefson</h1>
@@ -104,8 +104,8 @@
 						a passion for helping business owners reach their goals by overcoming technology obstacles. I can
 						assist businesses with technology needs from HTML, CSS, JavaScript and database needs, to WordPress
 						design and maintenance. Please connect with me on <a
-							href="https://www.linkedin.com/in/erica-tollefson-nm/" class="text-info"
-							target="_blank">LinkedIn </a>or <a href="#contact" class="text-info" target="_blank">contact
+							href="https://www.linkedin.com/in/erica-tollefson-nm/" class="link-color"
+							target="_blank">LinkedIn </a>or <a href="#contact" class="link-color" target="_blank">contact
 							me.</a></p>
 				</div>
 			</div>

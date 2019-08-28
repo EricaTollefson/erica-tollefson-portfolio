@@ -68,7 +68,9 @@ h1, h2, h3, h4, h5, p {
 	font-weight: lighter;
 }
 
-
+.link-color {
+	color: #c20bdb;
+}
 /* Call the onLoad animation for the header section*/
 @keyframes onLoad {
 	0% {
@@ -96,7 +98,7 @@ h1, h2, h3, h4, h5, p {
 
 /* set image sizes */
 .header-img {
-	width: 38vmax;
+	width: 39vmax;
 	height: auto;
 }
 
@@ -113,17 +115,17 @@ h1, h2, h3, h4, h5, p {
 		margin-right: auto;
 	}
 	.portfolio-button {
-		display: block;
+		display: grid;
 		margin-left: auto;
 		margin-right: auto;
 		width: 50%;
 	}
 	.text-left {
-		text-align: justify !important;
+		//*text-align: justify !important;*/
 	}
 	.header-img {
 		max-width: 100%;
-		width: 38vmax;
+		width: 39vmax;
 		height: auto;
 	}
 	.header-display {
