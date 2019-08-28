@@ -30,9 +30,9 @@
 			crossorigin="anonymous"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
@@ -47,10 +47,11 @@
 		<script src="https://kit.fontawesome.com/cf2edcd587.js"></script>
 
 		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:300|Open+Sans:300|Source+Sans+Pro:300|Roboto:100|Julius+Sans+One&display=swap" rel="stylesheet">
-
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
 
 		<title>Erica Tollefson's Portfolio</title>
+
 	</head>
 
 	<body>
@@ -73,66 +74,88 @@
 			</nav>
 		</div>
 
-		<div class="container-fluid header" id="header">
+		<div class="container header" id="header">
 			<!--parent must be full height-->
 			<div class="row min-vh-100">
-				<div class="col-md-2 col-lg-1 col-xl-1 d-block p-0 my-auto mx-auto" style="width:auto;">
-					<img class="header-img" src="images/teal.jpg" alt="an image">
+				<div class="col-9 col-sm-9 col-md-2 col-lg-1 col-xl-1 d-inline p-sm-0 my-auto mx-auto header-display"
+					  style="width:auto;">
+					<img class="header-img pl-2" src="images/teal-flower.jpg" alt="an image">
 				</div>
-				<div class="col-md-8 col-lg-4 col-xl-3 d-block p-0 mt-0 mb-5 my-md-auto mx-auto ml-md-5 ml-lg-4 ml-xl-0">
-					<h1 class="text-center text-light" >Erica Tollefson</h1>
+				<div class="col-11 col-sm-9 col-md-8 col-lg-4 col-xl-3 d-block p-0 mt-0 mb-5 my-md-auto mx-auto ml-md-5 ml-lg-4 ml-xl-0" style="width:auto;">
+					<h1 class="text-center text-light">Erica Tollefson</h1>
 					<h3 class="text-center text-light">Web Developer</h3>
 				</div>
 			</div>
 		</div>
 
-			<div class="container-fluid about section" id="about">
-				<div class="row min-vh-100 clearfix">
-					<div class="col-sm-5 col-4">
-
-					</div>
-					<div class="col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
-						<h1 class="text-right text-light pb-3">About Me</h1>
-						<p class="text-justify text-light ml-sm-3">A bit of my background: I am a recent graduate of Santa Fe Community College (with degrees in Web Design and Photography), as well as CNM Ingenuity's Full Stack Web Development Bootcamp. While working as an intern at Deep Dive Coding, I was part of a team that created the Signs on 66 web application that helps users find and photograph historic Route 66 neon signs in Albuquerque.</p>
-						<p class="text-justify text-light ml-sm-3">I am currently a freelance web developer who loves to design websites from the ground up, as well as increase the beauty and performance of existing sites. I have a passion for helping business owners reach their goals by overcoming technology obstacles. I can assist businesses with technology needs from HTML, CSS, JavaScript and database needs, to WordPress design and maintenance. Please connect with me on <a href="https://www.linkedin.com/in/erica-tollefson-nm/" class="text-info" target="_blank">LinkedIn </a>or <a href="#contact" class="text-info" target="_blank">contact me.</a></p>
-					</div>
-				</div>
-			</div>
-
-			<div class="container-fluid portfolio section" id="portfolio">
-				<div class="row min-vh-100 clearfix my-md-auto mb-4">
-					<div class="col-md-4 col-7 my-auto d-block float-left pl-3 pl-sm-4 pt-5 pb-1 py-md-0" style="width:auto;">
-						<h1 class="text-left text-light pb-3">Portfolio</h1>
-						<p class="text-left text-light mr-sm-3">The Signs on 66 web application was designed with two other developers during the Deep Dive Coding bootcamp. This interactive web application allows users to locate historic Route 66 neon signs in Albuquerque and upload their own images of the signs to the site.</p>
-						<p class="text-left text-light mr-sm-3">Signs on 66 was developed utilizing a combination of HTML5, CSS3, Bootstrap, JavaScript, and jQuery for the frontend, and PHP7.3, and MySQL were used in the backend development. Geolocation capabilities were integrated using the Google Maps API.</p>
-					</div>
-					<div class="col-md-5 col-7 my-auto pl-3 pl-sm-4 pb-4 pb-md-0">
-						<img class="placeholder-img" src="images/Monterey_placeholder.jpg" alt="image of Monterey Motel Sign">
-						<div class="container d-grid mt-3 mx-5"><a class="btn btn-outline-light" href="#header" role="button">Visit Signs on 66</a></div>
-					</div>
-				</div>
-			</div>
-
-		<div class="container-fluid contact section" id="contact">
+		<div class="container-fluid section" id="about">
 			<div class="row min-vh-100 clearfix">
-				<div class="col-md-6 col-sm-5 col-4">
+				<div class="col-sm-5">
 				</div>
-				<div class="col-md-6 col-sm-7 col-8 my-auto d-block float-right pr-4" style="width:auto;">
+				<div class="col-sm-7 col-11 my-sm-auto d-block mx-auto float-right pr-sm-4" style="width:auto;">
+					<h1 class="text-right text-light pb-3">About Me</h1>
+					<p class="text-justify text-light ml-sm-3">A bit of my background: I am a recent graduate of Santa Fe
+						Community College (with degrees in Web Design and Photography), as well as CNM Ingenuity's Full Stack
+						Web Development Bootcamp. While working as an intern at Deep Dive Coding, I was part of a team that
+						created the Signs on 66 web application that helps users find and photograph historic Route 66 neon
+						signs in Albuquerque.</p>
+					<p class="text-justify text-light ml-sm-3">I am currently a freelance web developer who loves to design
+						websites from the ground up, as well as increase the beauty and performance of existing sites. I have
+						a passion for helping business owners reach their goals by overcoming technology obstacles. I can
+						assist businesses with technology needs from HTML, CSS, JavaScript and database needs, to WordPress
+						design and maintenance. Please connect with me on <a
+							href="https://www.linkedin.com/in/erica-tollefson-nm/" class="text-info"
+							target="_blank">LinkedIn </a>or <a href="#contact" class="text-info" target="_blank">contact
+							me.</a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid section" id="portfolio">
+			<div class="row min-vh-100 clearfix my-md-auto mb-4">
+				<div
+					class="col-md-4 col-sm-9 col-11 my-auto d-block mx-auto mx-sm-1 float-left pl-sm-4 pt-sm-5 pb-1 py-md-0"
+					style="width:auto;">
+					<h1 class="text-left text-light pb-3">Portfolio</h1>
+					<p class="text-left text-light mr-sm-3">The Signs on 66 web application was designed with two other
+						developers during the Deep Dive Coding bootcamp. This interactive web application allows users to
+						locate historic Route 66 neon signs in Albuquerque and upload their own images of these signs to the
+						site.</p>
+					<p class="text-left text-light mr-sm-3">Signs on 66 was developed utilizing a combination of HTML5, CSS3,
+						Bootstrap, JavaScript, and jQuery for the frontend, and PHP and MySQL were used in the backend
+						development.</p>
+				</div>
+				<div class="col-md-5 col-sm-9 col-11 mx-auto mx-sm-1 my-auto pl-sm-4 pb-4 pb-md-0">
+					<img class="placeholder-img" src="images/Monterey_placeholder.jpg" alt="image of Monterey Motel Sign">
+					<div class="container d-sm-grid mt-3 mx-sm-5 portfolio-button"><a class="btn btn-outline-light" href="#" role="button">Visit
+							Signs on 66</a></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid section pt-0 mt-0" id="contact">
+			<div class="row min-vh-100 clearfix">
+				<div class="col-md-6 col-sm-5">
+				</div>
+				<div class="col-md-6 col-sm-7 col-11 mx-auto my-sm-auto d-block float-right pr-4" style="width:auto;">
 					<h1 class="text-right text-light pb-3">Find Me</h1>
 					<form id="erica-form" action="../php/" method="post">
 						<div class="form-group">
-								<label class="text-white" for="exampleFormInputName">Name</label>
-								<input type="text" class="form-control" id="inlineFormInputName" name="name" placeholder="Jane Doe">
-							</div>
+							<label class="text-white" for="inlineFormInputName">Name</label>
+							<input type="text" class="form-control" id="inlineFormInputName" name="name"
+									 placeholder="Jane Doe">
+						</div>
 
 						<div class="form-group">
 							<label class="text-white" for="exampleFormControlInput1">Email address</label>
-							<input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
+							<input type="email" class="form-control" id="exampleFormControlInput1" name="email"
+									 placeholder="name@example.com">
 						</div>
 
 						<div class="form-group pb-2">
 							<label class="text-white" for="exampleFormControlTextarea1">Message</label>
-							<textarea class="form-control" id="exampleFormControlTextarea1" name="message" placeholder="Leave a message" rows="3"></textarea>
+							<textarea class="form-control" id="exampleFormControlTextarea1" name="message"
+										 placeholder="Leave a message" rows="3"></textarea>
 						</div>
 						<!-- reCAPTCHA -->
 						<div class="g-recaptcha" data-sitekey="6LdBCrMUAAAAABvnoyaoeXifmWTTwLdEMWMLnw9o"></div>
@@ -152,9 +175,12 @@
 		<div class="clearfix mb-3">
 			<div class="container d-inline ml-0 mw-100">
 				<a class="text-white" href="#header"><i class="fas fa-arrow-up fa-2x"></i></a>
-				<a class="text-white float-md-right mx-2 mr-md-4 ml-md-3 my-md-0" href="./images/Erica-Tollefson-Resume.pdf" target="_blank"><i class="far fa-file-alt fa-2x"></i></a>
-				<a class="text-white float-md-right mr-2 mr-md-0 my-md-0" href="https://github.com/EricaTollefson" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
-				<a class="text-white float-md-right mr-md-3 my-md-0" href="https://www.linkedin.com/in/erica-tollefson-nm/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+				<a class="text-white float-md-right mx-2 mr-md-4 ml-md-3 my-md-0" href="./images/Erica-Tollefson-Resume.pdf"
+					target="_blank"><i class="far fa-file-alt fa-2x"></i></a>
+				<a class="text-white float-md-right mr-2 mr-md-0 my-md-0" href="https://github.com/EricaTollefson"
+					target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+				<a class="text-white float-md-right mr-md-3 my-md-0" href="https://www.linkedin.com/in/erica-tollefson-nm/"
+					target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
 			</div>
 		</div>
 

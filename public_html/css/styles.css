@@ -3,13 +3,15 @@ body {
 	height: 100%;
 }
 
+
+/* media queries for positioning of background image at different viewport widths */
 @media (min-width: 1585px) {
 	body {
 		background-image: url("../images/lightwave-xxl.jpg");
 	}
 }
 
-@media (max-width: 1584px) {
+@media (min-width: 1221px) {
 	body {
 		background-image: url("../images/lightwave-xl.jpg");
 		background-position: center;
@@ -17,7 +19,7 @@ body {
 		background-size: cover;
 	}
 }
-@media (max-width: 1220px) {
+@media (min-width: 1015px) {
 	body {
 		background-image: url("../images/lightwave-l.jpg");
 		background-position: center;
@@ -26,7 +28,7 @@ body {
 	}
 }
 
-@media (max-width: 1014px) {
+@media (min-width: 805px) {
 	body {
 		background-image: url("../images/lightwave-m.jpg");
 		background-position: center;
@@ -35,15 +37,25 @@ body {
 	}
 }
 
-@media (max-width: 804px) {
+@media (min-width: 641px) {
 	body {
 		background-image: url("../images/lightwave-s.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+}
+
+@media (max-width: 640px) and (min-width: 576px) {
+	body {
+		background-image: url("../images/lightwave-xs.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }
+
+/* font styling */
 h1, h2, h3, h4, h5 {
 	font-family: 'Roboto', sans-serif;
 }
@@ -75,15 +87,16 @@ h1, h2, h3, h4, h5, p {
 /* animation on scroll for about, portfolio, contact sections*/
 .section {
 	opacity:0;
-	transition: ease-out 2.5s 1.5s;
+	transition: ease-out 2.5s 1s;
 }
 .section.visible {
 	opacity:1;
 }
 
 
+/* set image sizes */
 .header-img {
-	width: 600px;
+	width: 38vmax;
 	height: auto;
 }
 
@@ -92,17 +105,41 @@ h1, h2, h3, h4, h5, p {
 	height: auto;
 }
 
-/*.about {
-	border: 2px dotted red;
+/* adjust alignment issues on smallest viewport sizes where pure bootstrap is insufficient */
+@media (max-width: 576px) {
+	.placeholder-img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.portfolio-button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	.text-left {
+		text-align: justify !important;
+	}
+	.header-img {
+		max-width: 100%;
+		width: 38vmax;
+		height: auto;
+	}
+	.header-display {
+		display: inline-table !important;
+	}
+
 }
 
-.portfolio {
-	border: 1.5px solid yellow;
-}
+/* adjust header image sizing where pure bootstrap is insufficient for large viewports */
+@media (min-width: 992px) {
+	.header-img {
+		width: 33vmax;
+		height: auto;
+	}
 
-.contact {
-	border: 2px dotted deeppink;
-}*/
+}
 
 
 /* make google recaptcha responsive */
