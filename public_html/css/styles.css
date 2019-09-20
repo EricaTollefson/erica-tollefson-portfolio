@@ -8,6 +8,9 @@ body {
 @media (min-width: 1585px) {
 	body {
 		background-image: url("../images/lightwave-xxl.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }
 
@@ -89,7 +92,7 @@ h1, h2, h3, h4, h5, p {
 /* animation on scroll for about, portfolio, contact sections*/
 .section {
 	opacity:0;
-	transition: ease-out 2.5s 1s;
+	transition: ease-out 1.5s 1.25s;
 }
 .section.visible {
 	opacity:1;
@@ -105,6 +108,28 @@ h1, h2, h3, h4, h5, p {
 .placeholder-img {
 	width: 290px;
 	height: auto;
+}
+.portfolio-button {
+	color: white !important;
+}
+.portfolio-button a:hover {
+	background-color: #f4d510;
+	color: black !important;
+}
+
+/* modal styling*/
+#exampleModalLongTitle {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.modal-image {
+	width: 100%;
+	height: auto;
+}
+
+.modal-text {
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* adjust alignment issues on smallest viewport sizes where pure bootstrap is insufficient */
